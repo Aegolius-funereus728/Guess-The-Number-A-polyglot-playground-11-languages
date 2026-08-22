@@ -87,7 +87,7 @@ swift guess-number.swift
 | **Python** | 解释型 | 最简洁，动态类型，库丰富 |
 | **Ruby** | 解释型 | 优雅语法，Rails框架敏捷开发 |
 | **R** | 解释型 | 统计分析，数据可视化强大 |
-| **JavaScript** | 解释型（JIT） | 浏览器原生，事件驱动，非阻塞I/O |
+| **JavaScript** | 解释型 | 浏览器原生，事件驱动，非阻塞I/O |
 | **Swift** | 编译型 | 现代语法，安全，Apple生态官方 |
 
 ## 项目结构
