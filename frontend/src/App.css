@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: radial-gradient(circle at 30% 20%, #4ab6e8, #1874b5);
+  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.game-container {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.65), rgba(255, 255, 255, 0.25));
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  
+  border-radius: 16px;
+  padding: 40px 36px;
+  
+  border: 1px solid rgba(255, 255, 255, 0.9);
+  box-shadow: 
+    0 10px 30px rgba(0, 0, 0, 0.3),
+    inset 0 2px 3px rgba(255, 255, 255, 1),
+    inset 0 -3px 5px rgba(0, 0, 0, 0.1);
+}
+
+body::after {
+  content: '';
+  position: fixed;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 30% 30%, rgba(255,255,255,0.5), transparent 60%);
+  top: 10%;
+  left: 60%;
+  filter: blur(20px);
+  pointer-events: none;
+  animation: float-light 10s infinite alternate;
+}
+
+.app {
+  width: 100%;
+  max-width: 480px;
+  padding: 20px;
+}

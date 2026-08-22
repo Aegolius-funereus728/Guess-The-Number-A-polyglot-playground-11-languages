@@ -1,0 +1,40 @@
+# 前端依赖
+frontend/node_modules/
+frontend/build/
+frontend/.env
+
+# 编译产物
+*.exe
+*.out
+*.class
+*.o
+*.exe
+guess-number
+c/guess-number
+c++/guess-number
+
+# 保留源代码
+!*.c
+!*.cpp
+!*.java
+
+# IDE配置
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 日志文件
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 环境变量
+.env
+.env.local
+.env.production
