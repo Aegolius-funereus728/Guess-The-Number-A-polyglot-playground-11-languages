@@ -106,9 +106,9 @@ case $choice in
     5)
         echo -e "${GREEN}▶ 编译并运行 Java 版本...${NC}"
         cd java
-        javac guess-number.java
+        javac GuessNumberGame.java
         if [ $? -eq 0 ]; then
-            java guess-number
+            java GuessNumberGame
         else
             echo -e "${RED}  编译失败！请检查是否安装了 JDK${NC}"
         fi

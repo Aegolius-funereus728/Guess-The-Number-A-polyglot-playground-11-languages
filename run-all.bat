@@ -145,14 +145,14 @@ echo ☕ 运行 Java 版本...
 echo.
 cd java
 echo 正在编译...
-javac guess-number.java
+javac GuessNumberGame.java
 if errorlevel 1 (
     echo   编译失败！请确认已安装 JDK
     pause >nul
     cd ..
     goto menu
 )
-java guess-number
+java GuessNumberGame
 echo.
 echo ========================================
 echo 按任意键返回菜单...
@@ -271,7 +271,7 @@ echo.
 echo ========================================
 echo [3/11] C++
 echo ========================================
-cd c++ && g++ guess-number.exe && guess-number.exe
+cd c++ && g++ guess-number.cpp -o guess-number.exe && guess-number.exe
 cd ..
 echo.
 echo ========================================
@@ -283,7 +283,7 @@ echo.
 echo ========================================
 echo [5/11] Java
 echo ========================================
-cd java && javac guess-number.java && java guess-number
+cd java && javac GuessNumberGame.java && java GuessNumberGame
 cd ..
 echo.
 echo ========================================
